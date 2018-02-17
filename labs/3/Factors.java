@@ -8,9 +8,11 @@ public class Factors {
 		System.out.print("Enter an integer to find the factors: ");
 		int number = input.nextInt(); 
 		
-		for (int i = 1; i <= number; i++) {
-			if (number % i == 0)
+		for (int i = 2; i <= number; i++) {
+			while (number % i == 0) { // JA
 				System.out.printf("%7d",i);
+				number /= i; // JA
+			}
 		}
 	}
 
