@@ -11,7 +11,7 @@ public class SmallestElement {
 		// Prompt user to enter ten numbers and populate array
 		System.out.print("Enter ten numbers: ");
 		for (int i = 0; i < 10; i++) {
-			numbers[i] = input.nextInt();
+			numbers[i] = input.nextDouble();
 		}
 		
 		// Print out what the smallest number is

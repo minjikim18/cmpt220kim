@@ -7,7 +7,7 @@ public class AddingMatrices {
 		// Create three matrices (matrix 1 + matrix 2 = matrix 3
 		double[][] matrix1 = new double[3][3];
 		double[][] matrix2 = new double[3][3];
-		double[][] matrix3 = addMatrix(matrix1, matrix2);
+		double[][] matrix3 = addMatrix(matrix1, matrix2);  // JA: If you call it here, it will be empty
 		
 		
 		// Prompt user to enter matrx 1
