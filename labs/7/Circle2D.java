@@ -43,7 +43,7 @@ public class Circle2D {
 	public boolean contains(Circle2D insideCircle) {
 		return Math.sqrt(Math.pow(insideCircle.getX() - x, 2) + 
 				 Math.pow(insideCircle.getY() - y, 2)) 
-				 <= Math.abs(radius - insideCircle.getRadius());
+				 <= radius - insideCircle.getRadius();
 	}
 	
 	public boolean overlaps(Circle2D overlapCircle) {

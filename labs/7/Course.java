@@ -37,7 +37,7 @@ public class Course {
 
 	private void dropStudent(int a) {
 		String[] student = new String[students.length];
-		for (int i = 0, j = 0; i < student.length; i++, j++) {
+		for (int i = 0, j = 0; i < student.length - 1; i++, j++) { //JA
 			if (i == a) {
 				j++;
 			}

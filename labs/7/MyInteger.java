@@ -20,7 +20,7 @@ public class MyInteger {
 	}
 	
 	public boolean isPrime() {
-		for (int i = 2; i <= value; i++) {
+		for (int i = 2; i < value; i++) { // JA
 		    if (value % i == 0) {
 		        return false;
 		    }

@@ -5,6 +5,7 @@ public class StackOfIntegers {
 	public static final int DEFAULT = 16;
 	
 	public StackOfIntegers() {
+		this(DEFAULT); // JA
 	}
 	
 	public StackOfIntegers(int capacity) {
@@ -29,6 +30,6 @@ public class StackOfIntegers {
 	}
 
 	public void push(int i) {
-		
+		elements[size++] = i;
 	}
 }

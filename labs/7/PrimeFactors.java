@@ -14,7 +14,7 @@ public class PrimeFactors {
 		int integer = input.nextInt();
 		
 		// Display the smallest factors
-		System.out.print("The smallest factors of " + input + " are: ");
+		System.out.print("The smallest factors of " + integer + " are: "); // JA
 		Factors(integer, stack);
 
 		while (!stack.isempty()) {
