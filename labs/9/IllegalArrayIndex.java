@@ -19,7 +19,7 @@ public class IllegalArrayIndex {
 
 	// Method to give us 100 random integers for the array
 	private static int[] getArray() {
-		int[] array = new int[99];
+		int[] array = new int[100]; // JA
 		for (int i = 0; i < array.length; i++) {
 			array[i] = (int)(Math.random()*100);
 		}

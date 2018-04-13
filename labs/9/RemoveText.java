@@ -22,6 +22,7 @@ public class RemoveText {
 			}
 			
 		}
+		// JA: You had to write it back to the file
 		
 		
 	}

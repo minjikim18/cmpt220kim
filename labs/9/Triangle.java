@@ -1,4 +1,4 @@
-
+// JA: Where is IllegalTriangleException defined?
 
 public class Triangle {
 
