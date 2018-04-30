@@ -16,6 +16,8 @@ public class SortArrayList {
 		// Sort array
 		sort(arrayList);
 		
+		// Print?
+		
 	}
 
 	// Method to sort the array
@@ -24,7 +26,7 @@ public class SortArrayList {
 			Number minimum = arrayList.get(i);
 			int index = i;
 			
-			for (int j = i + 1; i < arrayList.size(); j++) {
+			for (int j = i + 1; j < arrayList.size(); j++)  { // JA
 				if (minimum.doubleValue() > arrayList.get(j).doubleValue()) {
                     minimum = arrayList.get(j);
                     index = j;
